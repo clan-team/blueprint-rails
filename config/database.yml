@@ -5,13 +5,16 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: mysql2
   pool: 5
-  timeout: 5000
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: blueprint_development
+  username: clan_team
+  password: <%= ENV['BLUEPRINT_DATABASE_PASSWORD'] %>
+  port: 3306
+  host: blueprint.crez6mfmohox.us-east-1.rds.amazonaws.com
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

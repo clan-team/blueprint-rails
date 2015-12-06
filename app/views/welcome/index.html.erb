@@ -18,7 +18,9 @@
     <div class="button_container clearfix">
       <button class="smart_home">What is a smart home?</button>
       <button class="need_to_start">What do I need to start?</button>
-      <button class="products">Products</button>
+      <%= link_to(grid_path) do %>
+        <button class="products">Products</button>
+      <% end %>
     </div>
   </div>
   <div class="page_2 clearfix">
@@ -32,7 +34,7 @@
     <p class="text ignore text-2">What Do I Need to Start?</p>
     <div class="text_container clearfix">
       <%= image_tag("number1(2)-30x30.png", class: "ignore ignore-2") %>
-      
+
       <p class="text ignore text-3">In-home wifi router</p>
 
       <%= image_tag("number2-30x30.png", class: "ignore ignore-4") %>
@@ -40,18 +42,18 @@
       <p class="text ignore text-4">Blueprint product Hub</p>
 
       <%= image_tag("number3-30x30.png", class: "ignore ignore-6") %>
-     
+
       <p class="text ignore text-5">Free Blueprint Control Panel™ app</p>
 
       <%= image_tag("images/number4-30x30.png", class: "ignore ignore-8") %>
-      
+
 
       <p class="text ignore text-6">Your first product</p>
     </div>
 
 
       <%= image_tag("images/phones-300x290.png", class: "ignore ignore-8") %>
-    
+
   </div>
 
   <script src="js/jquery-min.js"></script>

@@ -1,0 +1,326 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.188em/1.38 Roboto;
+  color: rgb(0, 0, 0);
+}
+
+.button_container {
+  position: relative;
+  width: 771px;
+  height: 60px;
+  margin: 406px auto 0;
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 24;
+  width: 300px;
+  height: auto;
+  margin: 15px 0 0 7.2672%;
+  overflow: hidden;
+}
+
+.main_logo {
+  float: left;
+  clear: both;
+  width: 37.75%;
+  height: 162px;
+  margin: 77px 0 0 31.125%;
+  background-image: url('../images/logo_text_white(4).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.need_to_start {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 27.2373540856%;
+  height: 54px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.49);
+  border-radius: 3px;
+  font-size: 0.895em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.need_to_start:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.need_to_start:active {
+  background-color: rgb(206, 206, 206);
+  color: rgb(0, 0, 0);
+}
+
+.page_1 {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 573px;
+  background: url('../images/background_test.png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.page_2 {
+  position: absolute;
+  top: 573px;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 74.5%;
+  height: 368px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(132, 132, 132);
+  background-color: rgb(255, 255, 255);
+}
+
+.page_3 {
+  width: 74.5%;
+  height: 440px;
+  margin: 941px auto 0;
+  padding-top: 50px;
+  border-bottom: 1px solid rgb(132, 132, 132);
+}
+
+.products {
+  display: block;
+  float: right;
+  width: 24.8484848484%;
+  height: 54px;
+  margin-right: 3.7573%;
+  border-radius: 3px;
+  background-color: rgb(98, 157, 209);
+  font-size: 0.895em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.products:hover,
+.smart_home:hover {
+  color: rgb(201, 201, 201);
+}
+
+.products:active,
+.smart_home:active {
+  background-color: rgb(70, 119, 163);
+  color: rgb(201, 201, 201);
+}
+
+.smart_home {
+  display: block;
+  float: left;
+  width: 24.8484848484%;
+  height: 54px;
+  margin-left: 3.76135%;
+  border-radius: 3px;
+  background-color: rgb(98, 157, 209);
+  font-size: 0.895em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.text_container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 23;
+  width: 50.7829977628%;
+  height: 266px;
+  margin: 15px 0 0 6.71141%;
+}
+
+.text_container .text {
+  position: relative;
+  float: left;
+  margin-left: 16.00702%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.title_bar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  min-height: 7px;
+  margin: 0 auto;
+  font-size: 1.316em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(73, 73, 73);
+}
+
+.title_bar2 {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0 auto;
+  font-size: 2.632em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(73, 73, 73);
+}
+
+.title_bar3 {
+  margin: 272px auto 0;
+  font-size: 0.842em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.title_bars {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 12;
+  width: 100%;
+  height: 103px;
+  margin: auto;
+}
+
+._button {
+  display: block;
+  float: left;
+  width: 7.6666666666%;
+  height: 33px;
+  margin: 11px 0 0 1.08073%;
+  border-radius: 3px;
+  background-color: rgb(98, 157, 209);
+  font-size: 0.842em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 21%;
+  height: 33px;
+  margin: 11px 0 0 1%;
+  padding: 0 10px;
+  border-radius: 2px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.947em;
+  font-weight: 100;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+._text {
+  position: relative;
+  float: left;
+  z-index: 6;
+  margin: 15px 0 0 57.5%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.ignore-2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.ignore-4 {
+  display: block;
+  position: absolute;
+  top: 77px;
+  left: 0;
+  z-index: 16;
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.ignore-6 {
+  display: block;
+  position: absolute;
+  top: 156px;
+  left: 0;
+  z-index: 17;
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.ignore-8 {
+  display: block;
+  position: absolute;
+  top: 236px;
+  left: 0;
+  z-index: 18;
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.text-2 {
+  margin: 7px auto 0;
+  font-family: 'Roboto Condensed';
+  font-size: 1.316em;
+  text-align: center;
+  color: rgb(73, 73, 73);
+}
+
+.text-3 {
+  z-index: 19;
+  margin-top: 2px;
+}
+
+.text-4 {
+  clear: both;
+  z-index: 20;
+  margin-top: 51px;
+}
+
+.text-5 {
+  clear: both;
+  z-index: 21;
+  margin-top: 53px;
+}
+
+.text-6 {
+  clear: both;
+  z-index: 22;
+  margin-top: 54px;
+}
